@@ -30,6 +30,8 @@
 			<version>1.2.17</version>
 		</dependency>
 		
+		<!--  In eclipse, following maven import only works if the -vm paraemeter points to a JDK, not JRE in eclipse.ini  -->
+		
 		<dependency>
 			<groupId>com.sun</groupId>
 			<artifactId>tools</artifactId>
